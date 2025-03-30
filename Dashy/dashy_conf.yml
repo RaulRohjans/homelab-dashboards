@@ -1,0 +1,176 @@
+pageInfo:
+  title: Rohjans Homelab
+  description: Built by Raul Rohjans
+  navLinks:
+    - title: GitHub
+      path: https://github.com/RaulRohjans
+appConfig:
+  theme: nord
+  layout: auto
+  iconSize: small
+sections:
+  - name: Monitoring
+    icon: fas fa-clock
+    items:
+      - &ref_0
+        title: NTFY
+        icon: https://ntfy.sh/_next/static/media/logo.077f6a13.svg
+        url: https://ntfy.rohjans.com/
+        target: newtab
+        id: 0_1062_ntfy
+      - &ref_1
+        title: Uptime Kuma
+        icon: https://uptime.kuma.pet/img/icon.svg
+        url: https://uptime.local.rohjans.com/
+        target: newtab
+        id: 1_1062_uptimekuma
+      - &ref_2
+        title: Portainer
+        icon: https://icon.icepanel.io/Technology/svg/Portainer.svg
+        url: https://portainer.local.rohjans.com/
+        target: newtab
+        id: 2_1062_portainer
+      - &ref_3
+        title: Grafana
+        description: Grafana Dashboards
+        icon: https://www.svgrepo.com/show/353829/grafana.svg
+        url: https://grafana.local.rohjans.com
+        target: newtab
+        id: 3_1062_grafana
+      - &ref_4
+        title: Jaeger
+        description: Jaeger application tracing
+        icon: >-
+          https://www.vectorlogo.zone/logos/jaegertracingio/jaegertracingio-icon.svg
+        url: https://jaeger.local.rohjans.com
+        target: newtab
+        id: 4_1062_jaeger
+    displayData:
+      sortBy: default
+      rows: 2
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+      - *ref_3
+      - *ref_4
+  - name: Download Agents
+    icon: fas fa-download
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_5
+        title: qBittorrent
+        icon: >-
+          https://upload.wikimedia.org/wikipedia/commons/6/66/New_qBittorrent_Logo.svg
+        url: https://torrent.local.rohjans.com/
+        target: newtab
+        id: 0_1466_qbittorrent
+    filteredItems:
+      - *ref_5
+  - name: Networking
+    icon: fas fa-network-wired
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_6
+        title: Nginx Proxy Manager
+        icon: https://nginxproxymanager.com/logo.svg
+        url: https://nginx.local.rohjans.com/
+        target: newtab
+        id: 0_1064_nginxproxymanager
+      - &ref_7
+        title: Cloudflare
+        icon: https://www.svgrepo.com/show/349320/cloudflare.svg
+        url: https://cloudflare.com
+        target: newtab
+        id: 1_1064_cloudflare
+    filteredItems:
+      - *ref_6
+      - *ref_7
+  - name: Storage
+    icon: fas fa-database
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_8
+        title: Nextcloud
+        icon: https://nextcloud.com/c/uploads/2023/02/logo_nextcloud_white.svg
+        url: https://cloud.rohjans.com
+        target: newtab
+        id: 0_725_nextcloud
+      - &ref_9
+        title: Immich
+        icon: https://immich.app/img/immich-logo-stacked-dark.svg
+        url: https://photos.rohjans.com/
+        target: newtab
+        id: 1_725_immich
+    filteredItems:
+      - *ref_8
+      - *ref_9
+  - name: Source Control
+    icon: fas fa-code
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_10
+        title: Docker Registry
+        icon: https://www.svgrepo.com/show/349342/docker.svg
+        url: https://registry-ui.local.rohjans.com/
+        target: newtab
+        id: 0_1394_dockerregistry
+    filteredItems:
+      - *ref_10
+  - name: Live Demos
+    icon: fas fa-browser
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_11
+        title: Spenser
+        icon: https://spenser-demo.rohjans.com/icons/logo-single-colored.png
+        url: https://spenser-demo.rohjans.com/
+        target: newtab
+        id: 0_936_spenser
+    filteredItems:
+      - *ref_11
+  - name: Infrastructure
+    icon: fas fa-cloud
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - &ref_12
+        title: Proxmox
+        icon: https://www.svgrepo.com/show/331552/proxmox.svg
+        url: https://192.168.1.5:8006
+        target: newtab
+        id: 0_1505_proxmox
+    filteredItems:
+      - *ref_12
